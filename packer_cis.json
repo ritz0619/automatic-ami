@@ -44,23 +44,8 @@
   "provisioners": [{
       "type": "shell",
       "inline": [
-              "sudo pip install ansible==2.7.9"
+              "sudo yum install httpd24"
       ]
     },
-    {
-      "type": "ansible-local",
-      "playbook_file": "ansible/playbook.yaml",
-      "role_paths": [
-        "ansible/roles/common"
-      ],
-      "playbook_dir": "ansible",
-      "galaxy_file": "ansible/requirements.yaml"
-    },
-    {
-      "type": "shell",
-      "inline": [
-        "rm .ssh/authorized_keys ; sudo rm /root/.ssh/authorized_keys"
-      ]
-    }
-  ]
+    ]
 }
