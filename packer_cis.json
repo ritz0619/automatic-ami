@@ -46,6 +46,6 @@
       "inline": [
               "sudo yum install httpd24"
       ]
-    },
+    }
     ]
 }
