@@ -47,8 +47,8 @@
               "sudo yum update -y",
                     "sudo yum install -y docker",
                     "sudo service docker start",
-                    "sudo yum install httpd24",
-                    "sudo yum install ansible==2.7.9"
+                    "sudo yum install httpd24"
+
       ]
     }
   ]
