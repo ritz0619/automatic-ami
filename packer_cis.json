@@ -44,20 +44,9 @@
   "provisioners": [{
       "type": "shell",
       "inline": [
-              "sudo yum update -y"
-      ]
-    },
-
-    {
-      "type": "shell",
-      "inline": [
-        "sudo yum install -y docker"
-      ]
-    },
-    {
-      "type": "shell",
-      "inline": [
-        "sudo service docker start"
+              "sudo yum update -y",
+                    "sudo yum install -y docker",
+                    "sudo service docker start"
       ]
     }
   ]
